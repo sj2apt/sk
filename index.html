@@ -29,8 +29,8 @@
     header a { color:yellow; text-decoration:none; }
     h2 { padding-bottom:0.5rem; }
     header { top:0; }
-    aside { position:fixed; bottom:11rem; right:1rem; animation:blank 3s infinite; }
-    aside a { display:block; padding:0.5rem; width:4rem; height:4rem; }
+    aside { position:fixed; bottom:11rem; right:1rem; width:4rem; height:4rem; animation:boom 2s infinite; }
+    aside a { display:block; padding:0.5rem; width:100%; height:100%; }
     aside img { width:100%; }
     .container { padding:1rem; }
     .benefit { padding:1rem; font-size:1.2rem; }
@@ -62,15 +62,15 @@
         width:10.64%;
       }
     }
-    @keyframes blank {
+    @keyframes boom {
       from {
-        opacity:1;
+        width:5.5rem;
       }
       50% {
-        opacity:0;
+        width:4rem;
       }
       to {
-        opacity:1;
+        width:5.5rem;
       }
     }
     </style>
